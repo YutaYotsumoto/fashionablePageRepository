@@ -294,11 +294,11 @@ section h2 span {
   border: 0;
 }
 
-/* RESPONSIVE 設定
+/* RESPONSIVE 設定　メディアクエリ
 ------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
-  /*要素の最小幅を設定*/
+  /*要素の最小幅を設定　条件式　screenが1200px以下になるときに innerクラスを 1024px*/
   .inner {
     width: 1024px;
   }
@@ -406,7 +406,7 @@ section h2 span {
   }
 
   #header h1 img {
-    margin-top: 10px;
+    margin-top: 3px;
     max-height: 45px;
     width: auto !important;
   }
