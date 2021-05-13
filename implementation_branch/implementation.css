@@ -246,7 +246,7 @@ section h2 span {
 
 /* sec04_02id要素*/
 #sec04_02 {
-  background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed; /*⭐️bgSec04.jpgをが読み込めない*/
+  background: url("images/bgSec04.jpg") no-repeat 100% 100% fixed; /*⭐️bgSec04.jpgをが読み込めない*/
   background-size: cover; /*背景画像の寸法を設定*/
   -webkit-background-size: cover; /**/
   text-align: center;
