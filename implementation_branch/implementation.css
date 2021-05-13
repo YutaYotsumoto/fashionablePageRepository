@@ -76,6 +76,10 @@ fieldset {
   border: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* 12~ */
 body {
   font: 14px/1.9 "Noto Sans JP", Arial, Vedana, 游ゴシック, YuGothic,
@@ -234,6 +238,7 @@ section h2 span {
 
 .brandDescription3 li {
   line-height: 2; /*テキストの行間を設定*/
+  text-align: center;
 }
 
 /* col3 class の　img class*/
