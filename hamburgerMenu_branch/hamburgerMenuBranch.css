@@ -120,6 +120,40 @@ input:focus {
   padding-top: 60px;
 }
 
+#humburgerBtn {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 17px;
+  width: 30px;
+  height: 44px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navMark {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+  border-radius: 5px;
+}
+
+#line1 {
+  top: 14px;
+}
+
+#line2 {
+  top: 20px;
+}
+
+#line3 {
+  top: 26px;
+}
+
 #manuNav a {
   color: black;
 }
@@ -415,6 +449,10 @@ section h2 span {
     margin-top: 3px;
     max-height: 45px;
     width: auto !important;
+  }
+
+  #humburgerBtn {
+    display: block;
   }
 
   a#menu {
