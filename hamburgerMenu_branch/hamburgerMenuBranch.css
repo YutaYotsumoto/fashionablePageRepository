@@ -76,11 +76,11 @@ fieldset {
   border: 0;
 }
 
+/* 12~ */
 html {
   scroll-behavior: smooth;
 }
 
-/* 12~ */
 body {
   font: 14px/1.9 "Noto Sans JP", Arial, Vedana, 游ゴシック, YuGothic,
     "ヒラギノ角ゴ ProN W3", "hiragino kaku Gothic ProN", メイリオ, Meiryo,
@@ -120,7 +120,7 @@ input:focus {
   padding-top: 60px;
 }
 
-#humburgerBtn {
+#hamburgerBtn {
   display: none;
   position: absolute;
   top: 15px;
@@ -143,7 +143,7 @@ input:focus {
 }
 
 #line1 {
-  top: 14px;
+  top: 13px;
 }
 
 #line2 {
@@ -151,7 +151,7 @@ input:focus {
 }
 
 #line3 {
-  top: 26px;
+  top: 27px;
 }
 
 #manuNav a {
@@ -206,7 +206,7 @@ section h2 {
   font-size: 22px;
   font-weight: normal;
   text-align: center;
-  background: url(../images/borderBlack.png) repeat-x 0 50%; /*背景画像がどのように繰り返すか　x=横へ繰り返し*/
+  background: url("images/borderBlack.png") repeat-x 0 50%; /*背景画像がどのように繰り返すか　x=横へ繰り返し*/
   background-size: 1px 1px;
 }
 
@@ -216,7 +216,7 @@ section h2 span {
   padding: 0 80px;
 }
 
-/* inner class*/
+/*⭐️ inner class*/
 .inner {
   width: 94%;
   margin: 0 auto;
@@ -451,16 +451,8 @@ section h2 span {
     width: auto !important;
   }
 
-  #humburgerBtn {
-    display: block;
-  }
-
-  a#menu {
-    display: inline-block;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    margin: 10px;
+  #hamburgerBtn {
+    display: none;
   }
 
   #menuBtn {
@@ -517,7 +509,7 @@ section h2 span {
 
   .panel {
     width: 100%;
-    display: none;
+    display: block;
     overflow: hidden;
     position: relative;
     left: 0;
